@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
     const respostas = {
       "preço": "Nossos preços variam conforme o serviço. Por exemplo, limpeza de pele custa R$120.",
       "preco": "Nossos preços variam conforme o serviço. Por exemplo, limpeza de pele custa R$120.",
@@ -79,4 +78,3 @@ document.addEventListener("DOMContentLoaded", function () {
       }
       adicionarMensagem("bot", "Se precisar de ajuda, posso te mostrar nossos serviços 😉");
     }, 10000);
-  });
