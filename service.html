@@ -27,6 +27,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/chatbot.css">
     </head>
 
     <body>
@@ -60,7 +61,6 @@
                         <a href="about.html" class="nav-item nav-link ">Sobre</a>
                         <a href="service.html" class="nav-item nav-link active">Serviços</a>
                         <a href="contact.html" class="nav-item nav-link ">Contato</a>
-                        <a href="" class="nav-item nav-link">Chatbot-Estetica</a>
                     </div>
                 </div>
             </nav>
@@ -251,11 +251,35 @@
             </div>
         </div>
         <!-- Footer End -->
+
+                <div id="chat-toggle">
+            <img src="img/chat_16678353.gif" alt="Chat" />
+          </div>
+        
+          <!-- Chatbot -->
+          <div id="chatbot" class="hidden">
+            <div id="chat-header">
+              Chat Estética ✨
+              <span id="close-chat" style="cursor:pointer;"></span>
+            </div>
+            <div id="chat-body">
+                <div class="bot-msg">
+                    Prefere falar no WhatsApp? <br />
+                    <a href="https://wa.me/5511912345678?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços."
+                       target="_blank" class="whatsapp-btn">📲 Falar no WhatsApp</a>
+                  </div>
+              <div class="bot-msg">Olá! Como posso te ajudar hoje?</div>
+            </div>
+            <input type="text" id="chat-input" placeholder="Digite sua pergunta..." />
+          </div>
+        
+          <!-- Botão de ativar/desativar chatbot -->
+          <button onclick="toggleChatbotAtivo()" style="position: fixed; bottom: 90px; left: 20px; z-index:10001;"></button>
         
 
-        <a href="https://wa.me/5511948810600" class="whatsapp-float" target="_blank">
+        <!--<a href="https://wa.me/5511948810600" class="whatsapp-float" target="_blank">
             <img src="img/whatsapp.png">
-        </a>   
+        </a> -->  
 
         
         <!-- JavaScript Libraries -->
@@ -269,6 +293,7 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/chatbot.js"></script>
         
     </body>
 
