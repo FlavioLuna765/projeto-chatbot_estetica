@@ -2,7 +2,7 @@ let chatbotAtivo = true;
 
 document.addEventListener("DOMContentLoaded", function () {
   const respostas = {
-        "preço": "Nossos preços variam conforme o serviço. Por exemplo, limpeza de pele custa R$120.",
+    "preço": "Nossos preços variam conforme o serviço. Por exemplo, limpeza de pele custa R$120.",
     "preco": "Nossos preços variam conforme o serviço. Por exemplo, limpeza de pele custa R$120.",
     "serviços": "Oferecemos limpeza de pele, depilação, massagem, design de sobrancelhas e mais.",
     "servicos": "Oferecemos limpeza de pele, depilação, massagem, design de sobrancelhas e mais.",
