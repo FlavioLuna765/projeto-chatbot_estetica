@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "demora": "Normalmente de 1 a 4 sessões, dependendo do tratamento , Entre 30 minutos e 2 horas, dependendo do procedimento.",
     "tempo": "Normalmente de 1 a 4 sessões, dependendo do tratamento.",
     "duração": "Entre 30 minutos e 2 horas, dependendo do procedimento.", 
-    "quanto tempo": "Entre 30 minutos e 2 horas, dependendo do procedimento.",
+    "quanto tempo": "Entre 30 minutos e 2 horas, dependendo do procedimento."
 
   };
 
